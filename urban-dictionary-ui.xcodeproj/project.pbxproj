@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075BE13ABEEE40F68740235C /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B2AEA68474DCBB209131B /* AmplifyModels.swift */; };
+		52CF21F0873C4213BE5A3ECE /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A136754E6E5466286E9F14C /* awsconfiguration.json */; };
+		62AD2A6F9E97BA5702C244E1 /* Pods_urban_dictionary_ui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3672B316B39595942B9D8B2 /* Pods_urban_dictionary_ui.framework */; };
+		88D87C1DC7C44B5CA525FD85 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = D43D1BB84A044C7F9F2E0198 /* amplifyconfiguration.json */; };
+		89C111BC452A4A4CA952CB5C /* SearchedTerm+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653367494E8A4506926E830A /* SearchedTerm+Schema.swift */; };
+		B5002FFA257D0BC40083EED7 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5002FF9257D0BC40083EED7 /* TermsViewController.swift */; };
+		B5002FFD257D0BD80083EED7 /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5002FFC257D0BD80083EED7 /* TermsView.swift */; };
+		B5003000257D0BE60083EED7 /* Terms.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5002FFF257D0BE60083EED7 /* Terms.swift */; };
+		B5003004257D0D3C0083EED7 /* TermCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5003003257D0D3C0083EED7 /* TermCell.swift */; };
+		B5003007257D0EC70083EED7 /* TermsCollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5003006257D0EC70083EED7 /* TermsCollectionViewManager.swift */; };
+		B500300A257D12E80083EED7 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5003009257D12E80083EED7 /* NetworkingService.swift */; };
+		B53AD7242585A3890012CF52 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53AD7232585A3890012CF52 /* HistoryView.swift */; };
+		B53AD7272585A3D50012CF52 /* SearchedTermCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53AD7262585A3D50012CF52 /* SearchedTermCell.swift */; };
+		B552976C2583D85B0090D7CD /* TermDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B552976B2583D85B0090D7CD /* TermDetailsViewController.swift */; };
+		B552976F2583D8660090D7CD /* TermDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B552976E2583D8660090D7CD /* TermDetailsView.swift */; };
+		B5BCF6CE257E857F00BDE2C6 /* DefineSearchTermResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BCF6CD257E857F00BDE2C6 /* DefineSearchTermResponse.swift */; };
+		B5F6104C257CFC9E005210C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6104B257CFC9E005210C7 /* AppDelegate.swift */; };
+		B5F6104E257CFC9E005210C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6104D257CFC9E005210C7 /* SceneDelegate.swift */; };
+		B5F61053257CFC9E005210C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F61051257CFC9E005210C7 /* Main.storyboard */; };
+		B5F61055257CFCA1005210C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F61054257CFCA1005210C7 /* Assets.xcassets */; };
+		B5F61058257CFCA1005210C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F61056257CFCA1005210C7 /* LaunchScreen.storyboard */; };
+		B5F61063257CFE70005210C7 /* DeclareUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5F61062257CFE70005210C7 /* DeclareUI */; };
+		B5F61067257CFEA8005210C7 /* KiloLocoKit in Frameworks */ = {isa = PBXBuildFile; productRef = B5F61066257CFEA8005210C7 /* KiloLocoKit */; };
+		B5F6106A257CFF8F005210C7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F61069257CFF8F005210C7 /* SearchViewController.swift */; };
+		B5F6106D257CFFB5005210C7 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6106C257CFFB5005210C7 /* SearchView.swift */; };
+		B5F61071257D03BD005210C7 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F61070257D03BD005210C7 /* HistoryViewController.swift */; };
+		D5DBBB09DEAF46618EF6CCA1 /* SearchedTerm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA70A95D313407FA76EFBD4 /* SearchedTerm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A136754E6E5466286E9F14C /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		1EA70A95D313407FA76EFBD4 /* SearchedTerm.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = SearchedTerm.swift; path = amplify/generated/models/SearchedTerm.swift; sourceTree = "<group>"; };
+		379B2AEA68474DCBB209131B /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		5E60F11E02E96109DEE9291C /* Pods-urban-dictionary-ui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urban-dictionary-ui.debug.xcconfig"; path = "Target Support Files/Pods-urban-dictionary-ui/Pods-urban-dictionary-ui.debug.xcconfig"; sourceTree = "<group>"; };
+		647D2AC7D047A1B3BF6024DC /* Pods-urban-dictionary-ui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urban-dictionary-ui.release.xcconfig"; path = "Target Support Files/Pods-urban-dictionary-ui/Pods-urban-dictionary-ui.release.xcconfig"; sourceTree = "<group>"; };
+		653367494E8A4506926E830A /* SearchedTerm+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "SearchedTerm+Schema.swift"; path = "amplify/generated/models/SearchedTerm+Schema.swift"; sourceTree = "<group>"; };
+		76942243E4D74601B27D180D /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/urbandictionaryios/schema.graphql; sourceTree = "<group>"; };
+		872572FDCE264D3FA0EB0893 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		B5002FF9257D0BC40083EED7 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		B5002FFC257D0BD80083EED7 /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
+		B5002FFF257D0BE60083EED7 /* Terms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terms.swift; sourceTree = "<group>"; };
+		B5003003257D0D3C0083EED7 /* TermCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermCell.swift; sourceTree = "<group>"; };
+		B5003006257D0EC70083EED7 /* TermsCollectionViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsCollectionViewManager.swift; sourceTree = "<group>"; };
+		B5003009257D12E80083EED7 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		B53AD7232585A3890012CF52 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B53AD7262585A3D50012CF52 /* SearchedTermCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedTermCell.swift; sourceTree = "<group>"; };
+		B552976B2583D85B0090D7CD /* TermDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermDetailsViewController.swift; sourceTree = "<group>"; };
+		B552976E2583D8660090D7CD /* TermDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermDetailsView.swift; sourceTree = "<group>"; };
+		B5BCF6CD257E857F00BDE2C6 /* DefineSearchTermResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefineSearchTermResponse.swift; sourceTree = "<group>"; };
+		B5F61048257CFC9E005210C7 /* urban-dictionary-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "urban-dictionary-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F6104B257CFC9E005210C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5F6104D257CFC9E005210C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5F61052257CFC9E005210C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5F61054257CFCA1005210C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5F61057257CFCA1005210C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5F61059257CFCA1005210C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F61069257CFF8F005210C7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B5F6106C257CFFB5005210C7 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B5F61070257D03BD005210C7 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		D43D1BB84A044C7F9F2E0198 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		F3672B316B39595942B9D8B2 /* Pods_urban_dictionary_ui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_urban_dictionary_ui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F61045257CFC9E005210C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F61063257CFE70005210C7 /* DeclareUI in Frameworks */,
+				B5F61067257CFEA8005210C7 /* KiloLocoKit in Frameworks */,
+				62AD2A6F9E97BA5702C244E1 /* Pods_urban_dictionary_ui.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3232929B2015A61E7E30E325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3672B316B39595942B9D8B2 /* Pods_urban_dictionary_ui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34BC512B77C04F65A2964E28 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				872572FDCE264D3FA0EB0893 /* amplifytools.xcconfig */,
+				D43D1BB84A044C7F9F2E0198 /* amplifyconfiguration.json */,
+				0A136754E6E5466286E9F14C /* awsconfiguration.json */,
+				76942243E4D74601B27D180D /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		404C2A015D2F4C669FD8A527 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				379B2AEA68474DCBB209131B /* AmplifyModels.swift */,
+				1EA70A95D313407FA76EFBD4 /* SearchedTerm.swift */,
+				653367494E8A4506926E830A /* SearchedTerm+Schema.swift */,
+			);
+			name = AmplifyModels;
+			path = .;
+			sourceTree = "<group>";
+		};
+		8390A4843879700450CEEA1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E60F11E02E96109DEE9291C /* Pods-urban-dictionary-ui.debug.xcconfig */,
+				647D2AC7D047A1B3BF6024DC /* Pods-urban-dictionary-ui.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5F6103F257CFC9E005210C7 = {
+			isa = PBXGroup;
+			children = (
+				404C2A015D2F4C669FD8A527 /* AmplifyModels */,
+				34BC512B77C04F65A2964E28 /* AmplifyConfig */,
+				B5F6104A257CFC9E005210C7 /* urban-dictionary-ui */,
+				B5F61049257CFC9E005210C7 /* Products */,
+				8390A4843879700450CEEA1F /* Pods */,
+				3232929B2015A61E7E30E325 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F61049257CFC9E005210C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F61048257CFC9E005210C7 /* urban-dictionary-ui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F6104A257CFC9E005210C7 /* urban-dictionary-ui */ = {
+			isa = PBXGroup;
+			children = (
+				B5F6104B257CFC9E005210C7 /* AppDelegate.swift */,
+				B5F6104D257CFC9E005210C7 /* SceneDelegate.swift */,
+				B5F61051257CFC9E005210C7 /* Main.storyboard */,
+				B5F61054257CFCA1005210C7 /* Assets.xcassets */,
+				B5F61056257CFCA1005210C7 /* LaunchScreen.storyboard */,
+				B5F61059257CFCA1005210C7 /* Info.plist */,
+				B5F61069257CFF8F005210C7 /* SearchViewController.swift */,
+				B5F6106C257CFFB5005210C7 /* SearchView.swift */,
+				B5F61070257D03BD005210C7 /* HistoryViewController.swift */,
+				B5002FF9257D0BC40083EED7 /* TermsViewController.swift */,
+				B5002FFC257D0BD80083EED7 /* TermsView.swift */,
+				B5002FFF257D0BE60083EED7 /* Terms.swift */,
+				B5003003257D0D3C0083EED7 /* TermCell.swift */,
+				B5003006257D0EC70083EED7 /* TermsCollectionViewManager.swift */,
+				B5003009257D12E80083EED7 /* NetworkingService.swift */,
+				B5BCF6CD257E857F00BDE2C6 /* DefineSearchTermResponse.swift */,
+				B552976B2583D85B0090D7CD /* TermDetailsViewController.swift */,
+				B552976E2583D8660090D7CD /* TermDetailsView.swift */,
+				B53AD7232585A3890012CF52 /* HistoryView.swift */,
+				B53AD7262585A3D50012CF52 /* SearchedTermCell.swift */,
+			);
+			path = "urban-dictionary-ui";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F61047257CFC9E005210C7 /* urban-dictionary-ui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F6105C257CFCA1005210C7 /* Build configuration list for PBXNativeTarget "urban-dictionary-ui" */;
+			buildPhases = (
+				0F1E5F1E3F421C450BE820DE /* [CP] Check Pods Manifest.lock */,
+				B5F61044257CFC9E005210C7 /* Sources */,
+				B5F61045257CFC9E005210C7 /* Frameworks */,
+				B5F61046257CFC9E005210C7 /* Resources */,
+				1935B03C7B5130D8C2BFDE06 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "urban-dictionary-ui";
+			packageProductDependencies = (
+				B5F61062257CFE70005210C7 /* DeclareUI */,
+				B5F61066257CFEA8005210C7 /* KiloLocoKit */,
+			);
+			productName = "urban-dictionary-ui";
+			productReference = B5F61048257CFC9E005210C7 /* urban-dictionary-ui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F61040257CFC9E005210C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B5F61047257CFC9E005210C7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = B5F61043257CFC9E005210C7 /* Build configuration list for PBXProject "urban-dictionary-ui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F6103F257CFC9E005210C7;
+			packageReferences = (
+				B5F61061257CFE70005210C7 /* XCRemoteSwiftPackageReference "declareui" */,
+				B5F61065257CFEA8005210C7 /* XCRemoteSwiftPackageReference "KiloLocoKit" */,
+			);
+			productRefGroup = B5F61049257CFC9E005210C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F61047257CFC9E005210C7 /* urban-dictionary-ui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F61046257CFC9E005210C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F61058257CFCA1005210C7 /* LaunchScreen.storyboard in Resources */,
+				B5F61055257CFCA1005210C7 /* Assets.xcassets in Resources */,
+				B5F61053257CFC9E005210C7 /* Main.storyboard in Resources */,
+				88D87C1DC7C44B5CA525FD85 /* amplifyconfiguration.json in Resources */,
+				52CF21F0873C4213BE5A3ECE /* awsconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F1E5F1E3F421C450BE820DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-urban-dictionary-ui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1935B03C7B5130D8C2BFDE06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-urban-dictionary-ui/Pods-urban-dictionary-ui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-urban-dictionary-ui/Pods-urban-dictionary-ui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-urban-dictionary-ui/Pods-urban-dictionary-ui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F61044257CFC9E005210C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F6106D257CFFB5005210C7 /* SearchView.swift in Sources */,
+				B5003000257D0BE60083EED7 /* Terms.swift in Sources */,
+				B5003007257D0EC70083EED7 /* TermsCollectionViewManager.swift in Sources */,
+				B5F6104C257CFC9E005210C7 /* AppDelegate.swift in Sources */,
+				B5003004257D0D3C0083EED7 /* TermCell.swift in Sources */,
+				B5BCF6CE257E857F00BDE2C6 /* DefineSearchTermResponse.swift in Sources */,
+				B552976F2583D8660090D7CD /* TermDetailsView.swift in Sources */,
+				B53AD7242585A3890012CF52 /* HistoryView.swift in Sources */,
+				B5F61071257D03BD005210C7 /* HistoryViewController.swift in Sources */,
+				B5F6106A257CFF8F005210C7 /* SearchViewController.swift in Sources */,
+				B5002FFA257D0BC40083EED7 /* TermsViewController.swift in Sources */,
+				B500300A257D12E80083EED7 /* NetworkingService.swift in Sources */,
+				B5F6104E257CFC9E005210C7 /* SceneDelegate.swift in Sources */,
+				B5002FFD257D0BD80083EED7 /* TermsView.swift in Sources */,
+				B552976C2583D85B0090D7CD /* TermDetailsViewController.swift in Sources */,
+				B53AD7272585A3D50012CF52 /* SearchedTermCell.swift in Sources */,
+				075BE13ABEEE40F68740235C /* AmplifyModels.swift in Sources */,
+				D5DBBB09DEAF46618EF6CCA1 /* SearchedTerm.swift in Sources */,
+				89C111BC452A4A4CA952CB5C /* SearchedTerm+Schema.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5F61051257CFC9E005210C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F61052257CFC9E005210C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F61056257CFCA1005210C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F61057257CFCA1005210C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F6105A257CFCA1005210C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5F6105B257CFCA1005210C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F6105D257CFCA1005210C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E60F11E02E96109DEE9291C /* Pods-urban-dictionary-ui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4896ZP32KP;
+				INFOPLIST_FILE = "urban-dictionary-ui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.markiiimark.urban-dictionary-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5F6105E257CFCA1005210C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647D2AC7D047A1B3BF6024DC /* Pods-urban-dictionary-ui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4896ZP32KP;
+				INFOPLIST_FILE = "urban-dictionary-ui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.markiiimark.urban-dictionary-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F61043257CFC9E005210C7 /* Build configuration list for PBXProject "urban-dictionary-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F6105A257CFCA1005210C7 /* Debug */,
+				B5F6105B257CFCA1005210C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F6105C257CFCA1005210C7 /* Build configuration list for PBXNativeTarget "urban-dictionary-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F6105D257CFCA1005210C7 /* Debug */,
+				B5F6105E257CFCA1005210C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5F61061257CFE70005210C7 /* XCRemoteSwiftPackageReference "declareui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kilo-Loco/declareui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.3;
+			};
+		};
+		B5F61065257CFEA8005210C7 /* XCRemoteSwiftPackageReference "KiloLocoKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kilo-Loco/KiloLocoKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5F61062257CFE70005210C7 /* DeclareUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5F61061257CFE70005210C7 /* XCRemoteSwiftPackageReference "declareui" */;
+			productName = DeclareUI;
+		};
+		B5F61066257CFEA8005210C7 /* KiloLocoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5F61065257CFEA8005210C7 /* XCRemoteSwiftPackageReference "KiloLocoKit" */;
+			productName = KiloLocoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B5F61040257CFC9E005210C7 /* Project object */;
+}

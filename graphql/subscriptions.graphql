@@ -1,0 +1,28 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateSearchedTerm {
+  onCreateSearchedTerm {
+    id
+    value
+    description
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateSearchedTerm {
+  onUpdateSearchedTerm {
+    id
+    value
+    description
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteSearchedTerm {
+  onDeleteSearchedTerm {
+    id
+    value
+    description
+    createdAt
+    updatedAt
+  }
+}

@@ -1,0 +1,5 @@
+type SearchedTerm @model {
+  id: ID!
+  value: String!
+  description: String
+}

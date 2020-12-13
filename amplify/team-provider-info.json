@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-urbandictionaryios-dev-200133-authRole",
+      "UnauthRoleArn": "arn:aws:iam::053569979260:role/amplify-urbandictionaryios-dev-200133-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::053569979260:role/amplify-urbandictionaryios-dev-200133-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-urbandictionaryios-dev-200133-deployment",
+      "UnauthRoleName": "amplify-urbandictionaryios-dev-200133-unauthRole",
+      "StackName": "amplify-urbandictionaryios-dev-200133",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:053569979260:stack/amplify-urbandictionaryios-dev-200133/674c5320-3c69-11eb-b717-060dce13b676",
+      "AmplifyAppId": "d9pnmgtthai54"
+    }
+  }
+}
